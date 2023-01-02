@@ -146,6 +146,11 @@ _G.packer_plugins = {
     path = "/home/live/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  tagbar = {
+    loaded = true,
+    path = "/home/live/.local/share/nvim/site/pack/packer/start/tagbar",
+    url = "https://github.com/majutsushi/tagbar"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/live/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -155,6 +160,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/live/.local/share/nvim/site/pack/packer/start/vim-floaterm",
     url = "https://github.com/voldikss/vim-floaterm"
+  },
+  ["vim-go"] = {
+    loaded = true,
+    path = "/home/live/.local/share/nvim/site/pack/packer/start/vim-go",
+    url = "https://github.com/fatih/vim-go"
+  },
+  ["vim-startify"] = {
+    loaded = true,
+    path = "/home/live/.local/share/nvim/site/pack/packer/start/vim-startify",
+    url = "https://github.com/mhinz/vim-startify"
   }
 }
 

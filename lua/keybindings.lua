@@ -41,6 +41,12 @@ vim.keymap.set("n", "<A-l>", "<C-w>l")
 vim.api.nvim_set_keymap("n", "<C-n>", ":NvimTreeToggle<CR>", {noremap = true})
 -- vim.keymap.set("n", "<C-n>", ":NvimTreeToggle<CR>")
 
+-- tagbar 右侧导航栏快捷键
+-- vim.keymap.set('n', '<leader>tt', ":TagbarToggle<CR>")
+vim.api.nvim_set_keymap("n", "<C-p>", ":TagbarToggle<CR>", {noremap = true})
+vim.g.tagbar_width = 25
+
+-- vim.keymap.set('n', '<leader>bb', ":TagbarToggle<CR>", {})
 -- floatterm 浮动终端键盘映射
 vim.g.floaterm_keymap_new    = '<F1>'
 vim.g.floaterm_keymap_prev   = '<F2>'

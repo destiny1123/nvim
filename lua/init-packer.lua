@@ -62,10 +62,21 @@ return require('packer').startup(function(use)
   use "nvim-lua/plenary.nvim"
 
   
-  -- gruvbox theme
+  -- gruvbox theme 主题插件
   use {
       "ellisonleao/gruvbox.nvim",
       requires = {"rktjmp/lush.nvim"}
   }
+
+  -- 右侧标签导航栏插件
+  use {
+      "majutsushi/tagbar"
+  }
+
+  -- 开屏页美化插件
+  use "mhinz/vim-startify"
+
+  -- go开发插件
+  use "fatih/vim-go"
 
 end)
